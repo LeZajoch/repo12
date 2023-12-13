@@ -97,3 +97,23 @@ function save(){
     a.download = 'canvas-download.jpeg';
     a.click();
 }
+
+ /*function draw_rect(event){
+
+    let startX = parseInt(e.clientX - offsetX);
+    let startY = parseInt(e.clientY - offsetY);
+    
+    
+    let mouseX = parseInt(event.clientX - offsetX);
+    let mouseY = parseInt(event.clientY - offsetY);
+    
+    
+    let width = mouseX - startX;
+    let height = mouseY - startY;
+
+    context.strokeRect(startX, startY, width, height);
+
+    
+    
+}
+  */
