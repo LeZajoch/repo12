@@ -87,5 +87,13 @@ function undo_last(){
         restore_array.pop();
         context.putImageData(restore_array[index],0,0);
     }
+}
 
+function save(){
+    
+    let dataURL = canvas.toDataURL("image/png");
+    let a = document.createElement('a');
+    a.href = dataURL
+    a.download = 'canvas-download.jpeg';
+    a.click();
 }
